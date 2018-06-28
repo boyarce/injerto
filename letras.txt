@@ -1,0 +1,132 @@
+<h3 class="text-white bg-dark">Utopia<h3>
+  <div class="text-white bg-dark" >
+    <p class="small">Bienvenido, a un nuevo día, a la ciudad, sin sonrisas,
+    La gente se mueve, muy "contenta": por su vida que ahora es una porquería!</p>
+
+    <p class="small">Sonríe, ¿No eres feliz?,¿Qué te pasa?,¿Por qué esa cara?
+    Estás, en el centro, del comercio,
+    de los sueños, y anhelos, de tu oxidado corazón</p>
+
+    <p class="small">Caminando, por estas calles, sólo veo, "optimismo",
+    Feligreses, del consumismo, celebrando con fervor, a su decadente dio$</p>
+
+    <p class="small">Respira, la gris esencia, Apaga, tu débil consciencia
+    He caído a la jungla del cemento, no quiero vivir en este vertedero</p>
+
+    <p class="small">Somos ciudadanos, de este mundo moderno,
+    Somos esclavos, de un viejo imperio.</p>
+
+    <p class="small">Sólo quieres vivir en paz,
+    En esta "utopía" sin igual!</p>
+
+    <p class="small">En esta "utopía", sin igual, toda tu alegría se deshace día a día!</p>
+
+    <p class="small">Escribe, tu autógrafo, en letras, muy pequeñas,
+    Ya es hora, de pagar, todas tus deudas,
+    Ya es tiempo, de cobrar, todas las cuentas.</p>
+
+    <p class="small">Todos somos, ciudadanos, de este mundo, muy moderno,
+    Y queremos, sonreír, En esta "utopía" donde puedes ser... ¿Feliz?</p>
+  </div>
+
+  <h3 class="text-white bg-dark">835<h3>
+    <div class="text-white bg-dark" >
+      <p class="small">Cerebro visceral, tragado por ondas mutantes,
+      horas tras tu pantalla, buscando algo que te salve</p>
+
+      <p class="small">Realidad Absurda, los muros se vuelven de cartón
+      Ya no te muevas, quédate en tu sillón</p>
+
+      <p class="small">Vida enferma, te choca con el cristal
+      Mente dopada, (que) no conoce la realidad</p>
+
+      <p class="small">Neuronas mutiladas, por vibraciones etéreas
+      tu vida en la prisión, de la fría información</p>
+
+      <p class="small">Realidad Absurda, ahora en tu zona de confort
+      Ya no te muevas, olvidando toda emoción</p>
+
+      <p class="small">¿Cuánto tiempo, se quema de tus días?
+      Ocho treinta y cinco, horas de vida</p>
+
+      <p class="small">Ocho treinta y cinco.... horas sin salida</p>
+    </div>
+
+
+
+
+
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <!-- Slide One - Set the background image for this slide in the line below -->
+        <div class="carousel-item active" style="background-image: url('https://scontent-scl1-1.xx.fbcdn.net/v/t1.0-9/35514117_1607225652719250_2083916568651104256_n.jpg?_nc_cat=0&oh=63d16bed69686495ea8dc865b6e0d921&oe=5BE2C2AD'">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Injerto</h3>
+            <p>Tocata en la casa del rock bella vista imagenes tomadas por revista vinchuca.</p>
+          </div>
+        </div>
+        <!-- Slide Two - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('https://scontent-scl1-1.xx.fbcdn.net/v/t1.0-9/35403847_1607225762719239_7291498603267227648_n.jpg?_nc_cat=0&oh=b9622f5a9eed5016eed4d979013dce3f&oe=5BE13BAF')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Injerto</h3>
+            <p>Tocata en la casa del rock bella vista imagenes tomadas por revista vinchuca.</p>
+          </div>
+        </div>
+        <!-- Slide Three - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('https://scontent-scl1-1.xx.fbcdn.net/v/t1.0-9/35463184_1607226282719187_663163523395747840_n.jpg?_nc_cat=0&oh=4c32a20c1aab0bcf47a4054caa57103d&oe=5BB11569') "  >
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Injerto</h3>
+            <p>Tocata en la casa del rock bella vista imagenes tomadas por revista vinchuca.</p>
+          </div>
+        </div>
+        <div class="carousel-item" style="background-image: url('https://scontent-scl1-1.xx.fbcdn.net/v/t1.0-9/35516085_1607226346052514_1393563969536393216_n.jpg?_nc_cat=0&oh=90b4397032d9783f2310538dec265805&oe=5BA4552F') "  >
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Injerto</h3>
+            <p>Tocata en la casa del rock bella vista imagenes tomadas por revista vinchuca.</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Injerto</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Inicio
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="historia.html">Historia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="canciones.html">Canciones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>

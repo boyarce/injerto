@@ -12,93 +12,104 @@
 
     <!-- Bootstrap core CSS -->
 
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!--link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700">
     <!--link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css"-->
     <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
     <!-- Custom styles for this template -->
-    <link href="css/full-slider.css" rel="stylesheet">
+    <!--link href="css/full-slider.css" rel="stylesheet"-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
   </head>
 
   <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">Injerto</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Inicio
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="historia.html">Historia</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="canciones.html">Canciones</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contacto.html">Contacto</a>
-            </li>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">INJERTO</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="historia.html">Historia</a></li>
+            <li><a href="canciones.html">Canciones</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+
           </ul>
         </div>
       </div>
     </nav>
+<br/><br/>
 
-    <heade>
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-        </ol>
-        <div class="carousel-inner" role="listbox">
-          <!-- Slide One - Set the background image for this slide in the line below -->
-          <div class="carousel-item active" style="background-image: url('https://scontent-scl1-1.xx.fbcdn.net/v/t1.0-9/35514117_1607225652719250_2083916568651104256_n.jpg?_nc_cat=0&oh=63d16bed69686495ea8dc865b6e0d921&oe=5BE2C2AD'">
-            <div class="carousel-caption d-none d-md-block">
-              <h3>Injerto</h3>
-              <p>Tocata en la casa del rock bella vista imagenes tomadas por revista vinchuca.</p>
-            </div>
-          </div>
-          <!-- Slide Two - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url('https://scontent-scl1-1.xx.fbcdn.net/v/t1.0-9/35403847_1607225762719239_7291498603267227648_n.jpg?_nc_cat=0&oh=b9622f5a9eed5016eed4d979013dce3f&oe=5BE13BAF')">
-            <div class="carousel-caption d-none d-md-block">
-              <h3>Injerto</h3>
-              <p>Tocata en la casa del rock bella vista imagenes tomadas por revista vinchuca.</p>
-            </div>
-          </div>
-          <!-- Slide Three - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url('https://scontent-scl1-1.xx.fbcdn.net/v/t1.0-9/35463184_1607226282719187_663163523395747840_n.jpg?_nc_cat=0&oh=4c32a20c1aab0bcf47a4054caa57103d&oe=5BB11569') "  >
-            <div class="carousel-caption d-none d-md-block">
-              <h3>Injerto</h3>
-              <p>Tocata en la casa del rock bella vista imagenes tomadas por revista vinchuca.</p>
-            </div>
-          </div>
-          <div class="carousel-item" style="background-image: url('https://scontent-scl1-1.xx.fbcdn.net/v/t1.0-9/35516085_1607226346052514_1393563969536393216_n.jpg?_nc_cat=0&oh=90b4397032d9783f2310538dec265805&oe=5BA4552F') "  >
-            <div class="carousel-caption d-none d-md-block">
-              <h3>Injerto</h3>
-              <p>Tocata en la casa del rock bella vista imagenes tomadas por revista vinchuca.</p>
-            </div>
-          </div>
+    <header>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="https://scontent-scl1-1.xx.fbcdn.net/v/t1.0-9/35463184_1607226282719187_663163523395747840_n.jpg?_nc_cat=0&oh=4c32a20c1aab0bcf47a4054caa57103d&oe=5BB11569" alt="La casa del rock" width="100%" height="700">
+        <div class="carousel-caption">
+          <h3>La casa del rock bella vista</h3>
+          <p>Tocata en la casa del rock bella vista imagenes tomadas por revista vinchuca.</p>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
       </div>
+
+      <div class="item">
+        <img src="https://scontent-scl1-1.xx.fbcdn.net/v/t1.0-9/35403847_1607225762719239_7291498603267227648_n.jpg?_nc_cat=0&oh=b9622f5a9eed5016eed4d979013dce3f&oe=5BE13BAF" alt="La casa del rock" width="100%" height="700">
+        <div class="carousel-caption">
+          <h3>La casa del rock bella vista</h3>
+          <p>Tocata en la casa del rock bella vista imagenes tomadas por revista vinchuca.</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="https://scontent-scl1-1.xx.fbcdn.net/v/t1.0-9/35514117_1607225652719250_2083916568651104256_n.jpg?_nc_cat=0&oh=63d16bed69686495ea8dc865b6e0d921&oe=5BE2C2AD" alt="La casa del rock" width="100%" height="700">
+        <div class="carousel-caption">
+          <h3>La casa del rock bella vista</h3>
+          <p>Tocata en la casa del rock bella vista imagenes tomadas por revista vinchuca.</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="https://scontent-scl1-1.xx.fbcdn.net/v/t1.0-9/35516085_1607226346052514_1393563969536393216_n.jpg?_nc_cat=0&oh=90b4397032d9783f2310538dec265805&oe=5BA4552F" alt="La casa del rock" width="100%" height="700">
+        <div class="carousel-caption">
+          <h3>La casa del rock bella vista</h3>
+          <p>Tocata en la casa del rock bella vista imagenes tomadas por revista vinchuca.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+
+
     </header>
 
     <!-- Page Content -->
